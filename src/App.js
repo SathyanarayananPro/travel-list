@@ -136,7 +136,7 @@ function Stats({ items }) {
   if (!items.length)
     return (
       <footer className="stats">
-        <em>Start adding some items to packing list to fly🚀</em>;
+        <em>Start adding some items to packing list to fly🚀</em>
       </footer>
     );
   const numItems = items.length;
@@ -148,7 +148,7 @@ function Stats({ items }) {
         {percentage === 100
           ? "You are ready to go ✈️"
           : `you have ${numItems} items on your list, and you already packed
-        ${numPacked}(${percentage}%)`}
+        ${numPacked} (${percentage}%)`}
       </em>
     </footer>
   );
